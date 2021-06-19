@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>NotFlix</title>
+  </head>
+
+  <body>
+    <main>
+      <!-- main section -->
+
+      <section id="sec-1">
+        <div class="showcase">
+          <navbar class="navbar">
+            <div class="logo">
+              <h1>The Witcher</h1>
+              <div class="netflix">
+                <img src="img/netflix.png" alt="" />
+              </div>
+            </div>
+
+            <div class="bars">
+              <div id="bar"></div>
+              <div id="bar1"></div>
+              <div id="bar2"></div>
+            </div>
+          </navbar>
+
+          <div class="bg-image">
+            <img src="img/bg.jpg" alt="" />
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="coming-soon">
+            <h2>Coming December 20</h2>
+            <h1>The Witcher</h1>
+          </div>
+
+          <div class="scroll-down">
+            <a href="#sec-2">
+              <h4 id="scroll">Scroll</h4>
+              <h4 id="down">Down</h4>
+            </a>
+          </div>
+        </div>
+
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://web.facebook.com/salmandotweb/" target="_blank">
+                Facebook
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/salmandotweb/" target="_blank">
+                Instagram
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/salmandotweb" target="_blank">
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Slide Section -->
+
+        <div class="slide">
+          <h2 id="trailers">Trailers</h2>
+          <ul>
+            <li>
+              <a href="https://web.facebook.com/thewitcher" target="_blank">
+                <i id="fb" class="fab fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/witchernetflix/"
+                target="_blank"
+              >
+                <i id="insta" class="fab fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://twitter.com/witchernetflix?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"
+              >
+                <i id="twitter" class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div class="watch">
+            <h2>Watch</h2>
+          </div>
+
+          <div class="video-text">
+            <h3>The Witcher Official Teaser</h3>
+          </div>
+
+          <div class="video-container">
+            <video width="320" height="240" controls>
+              <source src="video/trailer1.mp4" type="video/mp4" />
+              <source src="movie.ogg" type="video/ogg" />
+            </video>
+          </div>
+
+          <div class="slide-footer">
+            <small>2019 @ Netflix Original Series</small>
+          </div>
+        </div>
+      </section>
+
+      <!-- Movies Section -->
+
+      <section id="sec-2">
+        <header class="header">
+          <div class="heading">
+            <h1>Latest Movies</h1>
+          </div>
+          <form id="form" class="input">
+            <input
+              type="text"
+              id="search"
+              class="search"
+              placeholder="Search..."
+            />
+          </form>
+        </header>
+        <div class="cards-container" id="main">
+          <!-- <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bg.jpg" alt="">
+        <div class="text">
+          <h2>
+            Movie Name
+          </h2>
+          <small>9.8</small>
+        </div>
+        <div class="overview">
+          <h2>Overview</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eum nihil recusandae numquam fugiat deleniti sequi laudantium odio corrupti ipsam omnis a, expedita at tempora enim, officiis tempore hic blanditiis.</p>
+        </div>
+      </div> -->
+        </div>
+      </section>
+      </main>
+        <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique autem vel repellat dolorem distinctio deleniti. Sit accusamus iure molestias optio iste, debitis ullam praesentium deserunt dolores ut minima, aliquam eveniet.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#sec-1">Comedy</a></li>
+              <li><a href="#sec-1">Strategic</a></li>
+              <li><a href="#sec-1">Action</a></li>
+              <li><a href="#sec-1">Documentry</a></li>
+              <li><a href="#sec-1">Anime</a></li>
+              <li><a href="#sec-1">TV Shows</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#sec-1">About Us</a></li>
+              <li><a href="#sec-1">Contact Us</a></li>
+              <li><a href="#sec-1">Contribute</a></li>
+              <li><a href="#sec-1/">Privacy Policy</a></li>
+              <li><a href="#sec-1">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">Salmandotweb</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://web.facebook.com/salmandotweb/"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/salmandotweb"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="https://dribbble.com/samisco"><i class="fab fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/muhammad-salman-69b27719a/"><i class="fab fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
